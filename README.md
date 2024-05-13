@@ -18,7 +18,7 @@ Once you're satisfied with your resume, you can easily download it in PDF format
 
 ## Usage
 
-1. Visit the [Resume Builder](#) website.
+1. Visit the [Resume-Builder](https://adityamp3.github.io/Resume-Builder/) website.
 2. Fill in the required fields with your personal information, education, work experience, skills, etc and upload your photo.
 3. Once satisfied, download your resume in PDF format.
 
