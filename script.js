@@ -79,37 +79,31 @@ function generateCV() {
   //we
 
   let wes = document.getElementsByClassName("weField");
-
   let str = "";
 
   for (let e of wes) {
     str = str + `<li> ${e.value} </li>`;
   }
-
   document.getElementById("weT").innerHTML = str;
 
   //aq
 
   let aqs = document.getElementsByClassName("eqField");
-
   let str1 = "";
 
   for (let e of aqs) {
     str1 += `<li> ${e.value} </li>`;
   }
-
   document.getElementById("aqT").innerHTML = str1;
 
   //pr
 
   let prs = document.getElementsByClassName("prField");
-
   let str2 = "";
 
   for (let e of prs) {
     str2 += `<li> ${e.value} </li>`;
   }
-
   document.getElementById("prT").innerHTML = str2;
 
   //code for setting image
