@@ -100,6 +100,18 @@ function generateCV() {
 
   document.getElementById("aqT").innerHTML = str1;
 
+  //pr
+
+  let prs = document.getElementsByClassName("prField");
+
+  let str2 = "";
+
+  for (let e of prs) {
+    str2 += `<li> ${e.value} </li>`;
+  }
+
+  document.getElementById("prT").innerHTML = str2;
+
   //code for setting image
 
   let file = document.getElementById("imgField").files[0];
@@ -126,4 +138,3 @@ function generateCV() {
 function printCV() {
   window.print();
 }
-
